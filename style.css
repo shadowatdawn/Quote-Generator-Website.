@@ -22,6 +22,12 @@ body{
     height: 400px;
     width: 500px;
 }
+#container:hover{
+    transform: 
+    translateY(-5px)
+    scale(1.1)
+    ;
+}
 #message{
     text-align: center;
     border-radius: 10px;
@@ -36,6 +42,12 @@ body{
     text-align: center;
     box-shadow: 5cap, 5px, 3px, 3px, rgb(33, 128, 237, 0.5);
 }
+#header:hover{
+    transform: 
+    translateY(-5px)
+    scale(1.1)
+    ;
+}
 #quote{
     display: flex;
     align-items: center;
@@ -47,10 +59,17 @@ body{
 }
 #generate{
      margin: 30px;
-     background-color: rgb(39, 158, 197, 0.1);
+     background: rgb(0, 0, 0, 0.01);
      border-radius: 10px;
      height: 30px;
 }
-#generate::after{
+#generate:hover{
+    transform: 
+    translateY(-5px)
+    scale(1.1)
+    ;
+}
+#generate:active{
     color: lightblue;
+    background-color: grey;
 } 
