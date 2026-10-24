@@ -72,4 +72,9 @@ body{
 #generate:active{
     color: lightblue;
     background-color: grey;
-} 
+}
+#attribution{
+    position: absolute;
+    bottom: 0px;
+    font-size: xx-small;
+}
